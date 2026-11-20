@@ -25,7 +25,7 @@ function getPool() {
       connectionString: DATABASE_URL,
       max: 8, // Stay comfortably within Supabase free-tier connection bounds
       idleTimeoutMillis: 30000,
-      connectionTimeoutMillis: 5000,
+      connectionTimeoutMillis: 20000,
       ssl: IS_PROD || DATABASE_URL.includes('supabase.co') ? { rejectUnauthorized: false } : false,
     });
 

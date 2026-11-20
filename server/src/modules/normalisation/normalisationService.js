@@ -5,22 +5,29 @@ const { generateFingerprint, normalizeText } = require('./deduplicator');
 // Canonical property code mapping
 const PROPERTY_ALIAS_MAP = {
   'olympic hotel paddington': 'OLYMPIC-PADDINGTON',
+  'azzurro olympic hotel paddington': 'OLYMPIC-PADDINGTON',
   'olympic-paddington': 'OLYMPIC-PADDINGTON',
   'olympic paddington': 'OLYMPIC-PADDINGTON',
   'paddington': 'OLYMPIC-PADDINGTON',
 
   'potts point': 'POTTS-POINT',
+  'azzurro pod hotel potts point': 'POTTS-POINT',
+  'azzurro potts point': 'POTTS-POINT',
   'venus potts point sydney': 'POTTS-POINT',
   'venus potts point': 'POTTS-POINT',
   'potts-point': 'POTTS-POINT',
 
   'central sydney': 'CENTRAL-SYDNEY',
+  'azzurro pod hotel central sydney - near central station': 'CENTRAL-SYDNEY',
+  'azzurro pod hotel central sydney': 'CENTRAL-SYDNEY',
+  'azzurro central sydney': 'CENTRAL-SYDNEY',
   'venus surry hills': 'CENTRAL-SYDNEY',
   'venus central sydney': 'CENTRAL-SYDNEY',
   'surry hills': 'CENTRAL-SYDNEY',
   'central-sydney': 'CENTRAL-SYDNEY',
 
   'darling harbour': 'DARLING-HARBOUR',
+  'azzurro darling harbour': 'DARLING-HARBOUR',
   'chateau de venus': 'DARLING-HARBOUR',
   'château de venus': 'DARLING-HARBOUR',
   'chateau de venus darling harbour': 'DARLING-HARBOUR',
