@@ -242,9 +242,72 @@ router.post('/run', async (req, res, next) => {
       });
     }
 
+    if (adapter === 'booking' || adapter === 'booking_crawler') {
+      if (propertyCode) {
+        const outcome = await workflowEngine.executePropertyWorkflow(propertyCode, {
+          source: 'booking',
+          maxPages: 2,
+        });
+        return res.json({
+          success: true,
+          message: `Booking.com live collection completed for "${propertyCode}".`,
+          outcome,
+        });
+      } else {
+        const summary = await workflowEngine.runMultiPropertyWorkflow({
+          jobName: 'manual_booking_crawl_all',
+          source: 'booking',
+          maxPages: 2,
+        });
+        return res.json({
+          success: true,
+          message: 'Booking.com live collection completed for all 4 Azzurro properties.',
+          summary,
+        });
+      }
+    }
+
     res.status(400).json({
       success: false,
-      error: { message: `Unsupported on-demand adapter "${adapter}". Use "synthetic".` },
+      error: { message: `Unsupported on-demand adapter "${adapter}". Use "booking" or "synthetic".` },
+    });
+  } catch (err) {
+    next(err);
+  }
+});
+
+/**
+ * POST /api/collection/crawl
+ * Triggers live automated crawling for the 4 Azzurro Booking.com URLs.
+ */
+router.post('/crawl', async (req, res, next) => {
+  try {
+    const { propertyCode, maxPages = 2, sinceDate } = req.body;
+
+    if (propertyCode) {
+      const outcome = await workflowEngine.executePropertyWorkflow(propertyCode, {
+        source: 'booking',
+        maxPages: parseInt(maxPages, 10),
+        sinceDate,
+      });
+      return res.json({
+        success: true,
+        message: `Live crawl finished for property "${propertyCode}".`,
+        result: outcome,
+      });
+    }
+
+    const summary = await workflowEngine.runMultiPropertyWorkflow({
+      jobName: 'on_demand_booking_crawl_all',
+      source: 'booking',
+      maxPages: parseInt(maxPages, 10),
+      sinceDate,
+    });
+
+    res.json({
+      success: true,
+      message: 'Live crawl completed across all 4 Azzurro properties.',
+      summary,
     });
   } catch (err) {
     next(err);

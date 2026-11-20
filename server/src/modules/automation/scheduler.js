@@ -34,7 +34,10 @@ class Scheduler {
     const dailyCron = process.env.COLLECTION_CRON_SCHEDULE || '0 2 * * *';
     this.registerJob('daily_collection_all', dailyCron, async () => {
       logger.info('[Scheduler] Triggering scheduled job "daily_collection_all"');
-      await workflowEngine.runMultiPropertyWorkflow({ poolOverride });
+      await workflowEngine.runMultiPropertyWorkflow({
+        poolOverride,
+        source: process.env.DEFAULT_COLLECTION_SOURCE || 'booking',
+      });
     });
 
     // 2. Weekly Reporting Aggregation Sync (Every Monday at 03:00 AM Sydney AEST)
@@ -83,7 +86,10 @@ class Scheduler {
         const lock = await jobLock.acquire(p.name, { poolOverride });
         if (lock.acquired) {
           try {
-            const outcome = await workflowEngine.executePropertyWorkflow(p.code, { poolOverride });
+            const outcome = await workflowEngine.executePropertyWorkflow(p.code, {
+              poolOverride,
+              source: process.env.DEFAULT_COLLECTION_SOURCE || 'booking',
+            });
             await lock.release(outcome.status, outcome);
           } catch (err) {
             await lock.release('failed', { error: err.message });

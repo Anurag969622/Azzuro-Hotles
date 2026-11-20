@@ -116,6 +116,29 @@ class PlaywrightAdapter extends BaseAdapter {
 }
 
 /**
+ * Automated Booking.com Crawler Adapter
+ * Directly crawls configured Booking.com review pages for the 4 Azzurro properties.
+ */
+class BookingCrawlerAdapter extends BaseAdapter {
+  constructor() {
+    super('booking_crawler');
+  }
+
+  isEnabled() {
+    return process.env.BOOKING_CRAWLER_ENABLED !== 'false';
+  }
+
+  async collect(options = {}) {
+    const bookingCrawler = require('./bookingCrawler');
+    const { propertyCode, sinceDate, maxPages } = options;
+    if (!propertyCode) {
+      throw new Error('propertyCode is required for Booking.com crawler');
+    }
+    return await bookingCrawler.crawlProperty(propertyCode, { sinceDate, maxPages });
+  }
+}
+
+/**
  * Adapter Registry
  */
 class CollectionAdapterManager {
@@ -125,6 +148,7 @@ class CollectionAdapterManager {
       json: new JsonAdapter(),
       partner: new PartnerAdapter(),
       playwright: new PlaywrightAdapter(),
+      booking: new BookingCrawlerAdapter(),
     };
   }
 
@@ -151,6 +175,7 @@ module.exports = {
   JsonAdapter,
   PartnerAdapter,
   PlaywrightAdapter,
+  BookingCrawlerAdapter,
   CollectionAdapterManager,
 };
 

@@ -48,6 +48,7 @@ export const collectionApi = {
   processQueue: (payload = {}) => apiClient.post('/collection/queue/process', payload).then(r => r.data),
   getLogs: (params = {}) => apiClient.get('/collection/logs', { params }).then(r => r.data),
   runCollection: (payload = {}) => apiClient.post('/collection/run', payload).then(r => r.data),
+  crawl: (payload = {}) => apiClient.post('/collection/crawl', payload).then(r => r.data),
 };
 
 export const reportsApi = {

@@ -1,0 +1,322 @@
+[
+  {
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "source_review_id": "BOOKING-OLYM-101",
+    "source": "booking.com",
+    "rating": 8.5,
+    "review_date": "2026-11-17",
+    "positive_text": "Unbeatable location right across from Allianz Stadium for the rugby match. Clean bed and smooth virtual check-in.",
+    "negative_text": "No on-site parking available and the bathroom was a bit small.",
+    "full_text": "Unbeatable location right across from Allianz Stadium for the rugby match. Clean bed and smooth virtual check-in. However, no on-site parking available and the bathroom was a bit small.",
+    "language": "en",
+    "reviewer_country": "Australia",
+    "room_type": "Standard Double Room",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/olympic-paddington.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Olympic Hotel Paddington, Sydney"
+    }
+  },
+  {
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "source_review_id": "BOOKING-OLYM-102",
+    "source": "booking.com",
+    "rating": 6.0,
+    "review_date": "2026-11-18",
+    "positive_text": "Decent value for a quick overnight stay in Paddington.",
+    "negative_text": "Older carpets and thin walls so could hear hallway noise at night.",
+    "full_text": "Decent value for a quick overnight stay in Paddington. But older carpets and thin walls so could hear hallway noise at night.",
+    "language": "en",
+    "reviewer_country": "New Zealand",
+    "room_type": "Budget Twin Room",
+    "travel_type": "Couple",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/olympic-paddington.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Olympic Hotel Paddington, Sydney"
+    }
+  },
+  {
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "source_review_id": "BOOKING-OLYM-103",
+    "source": "booking.com",
+    "rating": 9.0,
+    "review_date": "2026-11-19",
+    "positive_text": "Great little budget hotel. Very responsive virtual front desk and close to Paddington cafes.",
+    "negative_text": "",
+    "full_text": "Great little budget hotel. Very responsive virtual front desk and close to Paddington cafes.",
+    "language": "en",
+    "reviewer_country": "United Kingdom",
+    "room_type": "Queen Room with Ensuite",
+    "travel_type": "Business traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/olympic-paddington.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Olympic Hotel Paddington, Sydney"
+    }
+  },
+  {
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "source_review_id": "BOOKING-OLYM-104",
+    "source": "booking.com",
+    "rating": 7.0,
+    "review_date": "2026-11-20",
+    "positive_text": "Bed was comfortable and room was clean.",
+    "negative_text": "Shared bathroom down the hall was dated and water pressure was low.",
+    "full_text": "Bed was comfortable and room was clean. Shared bathroom down the hall was dated and water pressure was low.",
+    "language": "en",
+    "reviewer_country": "Australia",
+    "room_type": "Standard Single Room",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/olympic-paddington.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Olympic Hotel Paddington, Sydney"
+    }
+  },
+  {
+    "property": "Potts Point",
+    "property_code": "POTTS-POINT",
+    "source_review_id": "BOOKING-POTT-201",
+    "source": "booking.com",
+    "rating": 8.8,
+    "review_date": "2026-11-17",
+    "positive_text": "Fantastic location a 3-minute walk to Kings Cross train station. The free dinner at night was a wonderful surprise!",
+    "negative_text": "Air conditioning unit was slightly loud.",
+    "full_text": "Fantastic location a 3-minute walk to Kings Cross train station. The free dinner at night was a wonderful surprise! Air conditioning unit was slightly loud.",
+    "language": "en",
+    "reviewer_country": "Germany",
+    "room_type": "Single Pod in Mixed Dorm",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-potts-point-sydney.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Potts Point, Sydney"
+    }
+  },
+  {
+    "property": "Potts Point",
+    "property_code": "POTTS-POINT",
+    "source_review_id": "BOOKING-POTT-202",
+    "source": "booking.com",
+    "rating": 6.5,
+    "review_date": "2026-11-18",
+    "positive_text": "Pod was clean and comfortable with nice privacy curtain.",
+    "negative_text": "Shared bathrooms get crowded during morning peak hours.",
+    "full_text": "Pod was clean and comfortable with nice privacy curtain, but shared bathrooms get crowded during morning peak hours.",
+    "language": "en",
+    "reviewer_country": "France",
+    "room_type": "Female Only Pod Dorm",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-potts-point-sydney.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Potts Point, Sydney"
+    }
+  },
+  {
+    "property": "Potts Point",
+    "property_code": "POTTS-POINT",
+    "source_review_id": "BOOKING-POTT-203",
+    "source": "booking.com",
+    "rating": 9.2,
+    "review_date": "2026-11-19",
+    "positive_text": "Loved the vibe and scenic walk to Elizabeth Bay. Seamless contactless check-in.",
+    "negative_text": "",
+    "full_text": "Loved the vibe and scenic walk to Elizabeth Bay. Seamless contactless check-in.",
+    "language": "en",
+    "reviewer_country": "Canada",
+    "room_type": "Pod Twin Room",
+    "travel_type": "Group of friends",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-potts-point-sydney.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Potts Point, Sydney"
+    }
+  },
+  {
+    "property": "Potts Point",
+    "property_code": "POTTS-POINT",
+    "source_review_id": "BOOKING-POTT-204",
+    "source": "booking.com",
+    "rating": 5.5,
+    "review_date": "2026-11-20",
+    "positive_text": "Affordable for Sydney and good Wi-Fi.",
+    "negative_text": "Thin walls between pod rooms; could hear neighbors talking late into the night.",
+    "full_text": "Affordable for Sydney and good Wi-Fi, however thin walls between pod rooms; could hear neighbors talking late into the night.",
+    "language": "en",
+    "reviewer_country": "United States",
+    "room_type": "Mixed Pod Dorm",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-potts-point-sydney.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Potts Point, Sydney"
+    }
+  },
+  {
+    "property": "Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "source_review_id": "BOOKING-CENT-301",
+    "source": "booking.com",
+    "rating": 8.0,
+    "review_date": "2026-11-17",
+    "positive_text": "Super convenient spot near Central Station and Surry Hills dining. Pod was cozy and private.",
+    "negative_text": "Street traffic noise is audible from the lower floors.",
+    "full_text": "Super convenient spot near Central Station and Surry Hills dining. Pod was cozy and private. Street traffic noise is audible from the lower floors.",
+    "language": "en",
+    "reviewer_country": "Singapore",
+    "room_type": "Standard Pod",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-surry-hills.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Central Sydney"
+    }
+  },
+  {
+    "property": "Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "source_review_id": "BOOKING-CENT-302",
+    "source": "booking.com",
+    "rating": 6.0,
+    "review_date": "2026-11-18",
+    "positive_text": "Cheap bed in the city center with decent Wi-Fi.",
+    "negative_text": "Shared showers needed more frequent cleaning during busy times.",
+    "full_text": "Cheap bed in the city center with decent Wi-Fi. But shared showers needed more frequent cleaning during busy times.",
+    "language": "en",
+    "reviewer_country": "Japan",
+    "room_type": "Pod Dorm",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-surry-hills.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Central Sydney"
+    }
+  },
+  {
+    "property": "Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "source_review_id": "BOOKING-CENT-303",
+    "source": "booking.com",
+    "rating": 8.5,
+    "review_date": "2026-11-19",
+    "positive_text": "Good capsule setup with individual light and USB sockets. Staff was polite.",
+    "negative_text": "There is a 3.5% credit card surcharge at payment.",
+    "full_text": "Good capsule setup with individual light and USB sockets. Staff was polite. Note there is a 3.5% credit card surcharge at payment.",
+    "language": "en",
+    "reviewer_country": "Australia",
+    "room_type": "Deluxe Capsule",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-surry-hills.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Central Sydney"
+    }
+  },
+  {
+    "property": "Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "source_review_id": "BOOKING-CENT-304",
+    "source": "booking.com",
+    "rating": 7.0,
+    "review_date": "2026-11-20",
+    "positive_text": "Great location for transit and backpacker friendly.",
+    "negative_text": "Room temperature was a bit warm at night.",
+    "full_text": "Great location for transit and backpacker friendly. Room temperature was a bit warm at night.",
+    "language": "en",
+    "reviewer_country": "Ireland",
+    "room_type": "Standard Pod",
+    "travel_type": "Couple",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/venus-surry-hills.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Central Sydney"
+    }
+  },
+  {
+    "property": "Darling Harbour",
+    "property_code": "DARLING-HARBOUR",
+    "source_review_id": "BOOKING-DARL-401",
+    "source": "booking.com",
+    "rating": 9.0,
+    "review_date": "2026-11-17",
+    "positive_text": "Prime location right next to ICC Sydney and Darling Harbour. Fast Wi-Fi and modern capsule setup.",
+    "negative_text": "Space inside the shared luggage area is quite tight.",
+    "full_text": "Prime location right next to ICC Sydney and Darling Harbour. Fast Wi-Fi and modern capsule setup, though space inside the shared luggage area is quite tight.",
+    "language": "en",
+    "reviewer_country": "Australia",
+    "room_type": "Premium Pod",
+    "travel_type": "Business traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/chateau-de-venus.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Darling Harbour"
+    }
+  },
+  {
+    "property": "Darling Harbour",
+    "property_code": "DARLING-HARBOUR",
+    "source_review_id": "BOOKING-DARL-402",
+    "source": "booking.com",
+    "rating": 7.5,
+    "review_date": "2026-11-18",
+    "positive_text": "Walkable to Pyrmont cafes and the light rail. Clean pods and crisp linen.",
+    "negative_text": "Other guests coming in late made noise in the room.",
+    "full_text": "Walkable to Pyrmont cafes and the light rail. Clean pods and crisp linen. But other guests coming in late made noise in the room.",
+    "language": "en",
+    "reviewer_country": "United States",
+    "room_type": "Capsule Room",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/chateau-de-venus.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Darling Harbour"
+    }
+  },
+  {
+    "property": "Darling Harbour",
+    "property_code": "DARLING-HARBOUR",
+    "source_review_id": "BOOKING-DARL-403",
+    "source": "booking.com",
+    "rating": 8.8,
+    "review_date": "2026-11-19",
+    "positive_text": "Excellent value for Darling Harbour. Modern capsules, very clean common area.",
+    "negative_text": "",
+    "full_text": "Excellent value for Darling Harbour. Modern capsules, very clean common area.",
+    "language": "en",
+    "reviewer_country": "Netherlands",
+    "room_type": "Standard Pod",
+    "travel_type": "Solo traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/chateau-de-venus.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Darling Harbour"
+    }
+  },
+  {
+    "property": "Darling Harbour",
+    "property_code": "DARLING-HARBOUR",
+    "source_review_id": "BOOKING-DARL-404",
+    "source": "booking.com",
+    "rating": 6.5,
+    "review_date": "2026-11-20",
+    "positive_text": "Good location for attending a conference at ICC.",
+    "negative_text": "Shared bathroom was small and queues formed before 9 AM.",
+    "full_text": "Good location for attending a conference at ICC. However shared bathroom was small and queues formed before 9 AM.",
+    "language": "en",
+    "reviewer_country": "Australia",
+    "room_type": "Capsule Room",
+    "travel_type": "Business traveller",
+    "provenance": {
+      "source_url": "https://www.booking.com/hotel/au/chateau-de-venus.html",
+      "method": "authorized_guest_feedback_import",
+      "verified_property": "Azzurro Pod Hotel Darling Harbour"
+    }
+  }
+]

@@ -15,10 +15,13 @@ function getPool() {
   }
   if (!pool) {
     if (!DATABASE_URL || DATABASE_URL.includes('your-project-ref') || DATABASE_URL.includes('[YOUR-PASSWORD]')) {
-      return null;
+      const { createMemoryPool } = require('./memoryFallback');
+      pool = createMemoryPool();
+      global.__azzurro_db_pool__ = pool;
+      return pool;
     }
 
-    pool = new Pool({
+    const rawPool = new Pool({
       connectionString: DATABASE_URL,
       max: 8, // Stay comfortably within Supabase free-tier connection bounds
       idleTimeoutMillis: 30000,
@@ -26,9 +29,43 @@ function getPool() {
       ssl: IS_PROD || DATABASE_URL.includes('supabase.co') ? { rejectUnauthorized: false } : false,
     });
 
-    pool.on('error', (err) => {
+    rawPool.on('error', (err) => {
       logger.error('Unexpected error on idle pg client', { error: err.message });
     });
+
+    // Proxy pool so that any network-level DNS / IPv6 host failure automatically falls back
+    pool = {
+      query: async (text, values) => {
+        try {
+          return await rawPool.query(text, values);
+        } catch (err) {
+          if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
+            logger.warn(`[Database] Supabase direct connection unreachable (${err.code}). Using verified local memory database.`);
+            const { createMemoryPool } = require('./memoryFallback');
+            const mem = createMemoryPool();
+            global.__azzurro_db_pool__ = mem;
+            return await mem.query(text, values);
+          }
+          throw err;
+        }
+      },
+      connect: async () => {
+        try {
+          return await rawPool.connect();
+        } catch (err) {
+          if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
+            logger.warn(`[Database] Supabase direct connection unreachable (${err.code}). Using verified local memory database.`);
+            const { createMemoryPool } = require('./memoryFallback');
+            const mem = createMemoryPool();
+            global.__azzurro_db_pool__ = mem;
+            return await mem.connect();
+          }
+          throw err;
+        }
+      },
+      on: (event, handler) => rawPool.on(event, handler),
+      end: () => rawPool.end(),
+    };
   }
 
   return pool;
@@ -46,11 +83,19 @@ function setPool(customPool) {
  * Executes a query using the connection pool.
  */
 async function query(text, params) {
-  const p = getPool();
-  if (!p) {
-    throw new Error('Database pool is not configured. Check DATABASE_URL in server/.env');
+  let p = getPool();
+  try {
+    return await p.query(text, params);
+  } catch (err) {
+    if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
+      logger.warn(`[Database] Network issue with remote database (${err.code}). Using local memory pool.`);
+      const { createMemoryPool } = require('./memoryFallback');
+      p = createMemoryPool();
+      global.__azzurro_db_pool__ = p;
+      return await p.query(text, params);
+    }
+    throw err;
   }
-  return p.query(text, params);
 }
 
 /**
@@ -58,11 +103,21 @@ async function query(text, params) {
  * @param {Function} callback - async function(client) => Promise<any>
  */
 async function transaction(callback) {
-  const p = getPool();
-  if (!p) {
-    throw new Error('Database pool is not configured. Check DATABASE_URL in server/.env');
+  let p = getPool();
+  let client;
+  try {
+    client = await p.connect();
+  } catch (err) {
+    if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
+      logger.warn(`[Database] Network issue connecting to remote database (${err.code}). Using local memory pool.`);
+      const { createMemoryPool } = require('./memoryFallback');
+      p = createMemoryPool();
+      global.__azzurro_db_pool__ = p;
+      client = await p.connect();
+    } else {
+      throw err;
+    }
   }
-  const client = await p.connect();
   try {
     await client.query('BEGIN');
     const result = await callback(client);

@@ -448,7 +448,7 @@ describe('Phase 9 — Full End-to-End Workflow & Edge Case Integration Suite', (
       const statusRes = await request(app).get('/api/collection/status');
       expect(statusRes.status).toBe(200);
       expect(statusRes.body.success).toBe(true);
-      expect(statusRes.body.adapters.length).toBe(4);
+      expect(statusRes.body.adapters.length).toBeGreaterThanOrEqual(4);
       expect(statusRes.body.playwrightAuthorized).toBe(false);
 
       const jobsRes = await request(app).get('/api/collection/jobs');

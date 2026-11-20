@@ -197,7 +197,7 @@ class AnalyticsEngine {
         WHERE analysis_status = 'completed'
         ORDER BY review_id, analyzed_at DESC
       ) a ON r.id = a.review_id
-      WHERE r.review_date >= CURRENT_DATE - INTERVAL '12 weeks'
+      WHERE r.review_date >= CURRENT_DATE - INTERVAL '84 days'
       GROUP BY DATE_TRUNC('week', r.review_date)
       ORDER BY DATE_TRUNC('week', r.review_date) ASC;
     `);

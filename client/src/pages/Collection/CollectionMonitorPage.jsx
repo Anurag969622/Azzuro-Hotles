@@ -15,7 +15,8 @@ import {
   ToggleLeft,
   ToggleRight,
   Sparkles,
-  ArrowRight
+  ArrowRight,
+  Globe,
 } from 'lucide-react';
 
 export default function CollectionMonitorPage() {
@@ -25,6 +26,7 @@ export default function CollectionMonitorPage() {
   const [queueInfo, setQueueInfo] = useState({ queuedCount: 0 });
   const [loading, setLoading] = useState(true);
   const [triggeringJob, setTriggeringJob] = useState(null);
+  const [crawling, setCrawling] = useState(false);
   const [processingQueue, setProcessingQueue] = useState(false);
   const [actionMessage, setActionMessage] = useState(null);
 
@@ -80,6 +82,28 @@ export default function CollectionMonitorPage() {
       });
     } finally {
       setTriggeringJob(null);
+    }
+  };
+
+  const handleCrawlBooking = async () => {
+    setCrawling(true);
+    setActionMessage(null);
+    try {
+      const res = await collectionApi.crawl();
+      if (res.success) {
+        setActionMessage({
+          type: 'success',
+          text: `Booking.com live crawl finished across all 4 Azzurro properties. Auto-ingested and queued for AI analysis.`,
+        });
+        fetchCollectionData();
+      }
+    } catch (err) {
+      setActionMessage({
+        type: 'error',
+        text: err.response?.data?.message || err.message || 'Booking.com crawl encountered an error.',
+      });
+    } finally {
+      setCrawling(false);
     }
   };
 
@@ -148,6 +172,15 @@ export default function CollectionMonitorPage() {
           </button>
 
           <button
+            onClick={handleCrawlBooking}
+            disabled={crawling}
+            className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-sky-600 hover:bg-sky-700 text-white rounded-lg text-xs font-bold transition-colors shadow-sm disabled:opacity-50"
+          >
+            <Globe size={14} className={crawling ? 'animate-spin' : ''} />
+            {crawling ? 'Crawling Booking.com...' : 'Crawl Booking.com Live'}
+          </button>
+
+          <button
             onClick={() => handleRunJob('daily_collection_all')}
             disabled={triggeringJob === 'daily_collection_all'}
             className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-azzurro-600 hover:bg-azzurro-700 text-white rounded-lg text-xs font-bold transition-colors shadow-sm disabled:opacity-50"
@@ -159,7 +192,20 @@ export default function CollectionMonitorPage() {
       </div>
 
       {/* Authorized Adapters Section */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        <div className="bg-white p-4 rounded-xl border border-sky-200/80 shadow-sm flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="p-2 bg-sky-50 text-sky-600 rounded-lg">
+              <Globe size={18} />
+            </div>
+            <div>
+              <span className="text-xs font-bold text-slate-900 block">Booking.com Auto-Crawler</span>
+              <span className="text-[10px] text-sky-600 font-semibold uppercase">Active / 4 Hotels</span>
+            </div>
+          </div>
+          <span className="w-2 h-2 rounded-full bg-sky-500 animate-pulse" />
+        </div>
+
         <div className="bg-white p-4 rounded-xl border border-slate-200/80 shadow-sm flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="p-2 bg-emerald-50 text-emerald-600 rounded-lg">

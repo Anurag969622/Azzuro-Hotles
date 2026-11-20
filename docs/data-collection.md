@@ -48,6 +48,7 @@ The ingestion system utilizes the `CollectionAdapter` abstract pattern (`server/
 
 | Adapter Name | Mode | Status | Purpose |
 | :--- | :--- | :---: | :--- |
+| **`booking_crawler`** | Pull (Scheduled Crawl) | **Enabled** | Automated HTTP/Cheerio review collection from configured Booking.com property URLs with duplicate prevention and resilient local cache fallback. |
 | **`csv_upload`** | Push (File Upload) | **Enabled** | Multi-column CSV file import with drag-and-drop UI and preview. |
 | **`json_import`** | Push (API / File) | **Enabled** | Structured JSON array ingestion with schema validation. |
 | **`synthetic_generator`** | Push / On-Demand | **Enabled** | High-fidelity synthetic reviews across all 4 hotels with explicit synthetic provenance flags. |
