@@ -160,6 +160,16 @@ function createMemoryPool() {
   if (fs.existsSync(seedPropsPath)) {
     const seedPropsSql = fs.readFileSync(seedPropsPath, 'utf8');
     memDb.public.none(seedPropsSql);
+
+    // Ensure authentic hotel display names
+    try {
+      memDb.public.none(`
+        UPDATE properties SET name = 'Azzurro Pod Hotel Central Sydney - Near Central Station' WHERE property_code = 'CENTRAL-SYDNEY';
+        UPDATE properties SET name = 'Azzurro Pod Hotel Potts Point' WHERE property_code = 'POTTS-POINT';
+        UPDATE properties SET name = 'Olympic Hotel Paddington' WHERE property_code = 'OLYMPIC-PADDINGTON';
+        UPDATE properties SET name = 'Chateau de Venus Darling Harbour' WHERE property_code = 'DARLING-HARBOUR';
+      `);
+    } catch (_) {}
   }
 
   // Seed scheduled jobs
@@ -259,8 +269,9 @@ function seedInitialReviews(pool) {
       pool.query(`
         INSERT INTO reviews (
           id, property_id, source, source_review_id, fingerprint, rating,
-          review_date, positive_text, negative_text, full_text, language, reviewer_country
-        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12);
+          review_date, positive_text, negative_text, full_text, language, reviewer_country,
+          room_type, travel_type, provenance
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15);
       `, [
         reviewId,
         propId,
@@ -274,6 +285,23 @@ function seedInitialReviews(pool) {
         rawText,
         rev.language || 'en',
         rev.reviewer_country || 'Australia',
+        rev.room_type || 'Mixed Pod Room',
+        rev.travel_type || 'Solo traveler',
+        JSON.stringify({
+          reviewer_name: rev.reviewer_name || 'Guest',
+          title: rev.title || (rev.rating >= 8 ? 'Good' : 'Pleasant'),
+          stay_duration: rev.stay_duration || null,
+          management_response: rev.management_response || null,
+          category_ratings: {
+            staff: 7.5,
+            facilities: 6.7,
+            cleanliness: 6.9,
+            comfort: 7.0,
+            value_for_money: 7.5,
+            location: 8.5,
+            free_wifi: 9.0
+          }
+        }),
       ]);
 
       // Detect topics

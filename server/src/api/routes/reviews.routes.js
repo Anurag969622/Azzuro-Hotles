@@ -76,7 +76,7 @@ router.get('/', async (req, res, next) => {
     }
 
     if (sentiment) {
-      conditions.push(`a.overall_sentiment = $${pIdx}`);
+      conditions.push(`LOWER(a.overall_sentiment) = $${pIdx}`);
       params.push(sentiment.toLowerCase());
       pIdx++;
     }
