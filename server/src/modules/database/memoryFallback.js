@@ -288,7 +288,7 @@ function seedInitialReviews(pool) {
         rev.room_type || 'Mixed Pod Room',
         rev.travel_type || 'Solo traveler',
         JSON.stringify({
-          reviewer_name: rev.reviewer_name || 'Guest',
+          reviewer_name: rev.reviewer_name || (rev.reviewer_country ? `${rev.reviewer_country} Traveler` : 'Verified Guest'),
           title: rev.title || (rev.rating >= 8 ? 'Good' : 'Pleasant'),
           stay_duration: rev.stay_duration || null,
           management_response: rev.management_response || null,

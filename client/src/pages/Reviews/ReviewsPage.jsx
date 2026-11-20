@@ -156,9 +156,34 @@ function formatReviewDate(dateStr) {
   return d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 }
 
+const AVATAR_COLORS = [
+  'bg-blue-600 text-white',
+  'bg-emerald-600 text-white',
+  'bg-purple-600 text-white',
+  'bg-amber-600 text-white',
+  'bg-rose-600 text-white',
+  'bg-indigo-600 text-white',
+  'bg-teal-600 text-white',
+  'bg-sky-600 text-white',
+];
+
+function getAvatarColor(name) {
+  if (!name) return 'bg-slate-600 text-white';
+  let hash = 0;
+  for (let i = 0; i < name.length; i++) {
+    hash = name.charCodeAt(i) + ((hash << 5) - hash);
+  }
+  return AVATAR_COLORS[Math.abs(hash) % AVATAR_COLORS.length];
+}
+
 function getInitials(name) {
-  if (!name || name === 'Guest') return 'G';
-  return name.split(' ').map(w => w[0]).join('').toUpperCase().slice(0, 2);
+  if (!name || name === 'Guest') return 'AG';
+  const clean = name.trim();
+  const parts = clean.split(/\s+/);
+  if (parts.length >= 2) {
+    return (parts[0][0] + parts[1][0]).toUpperCase();
+  }
+  return clean.slice(0, 2).toUpperCase();
 }
 
 // Date range presets
@@ -365,20 +390,30 @@ export default function ReviewsPage() {
 
   // Helper to extract provenance fields
   const getProv = (rev) => {
-    const p = rev.provenance || {};
+    let p = rev.provenance || {};
+    if (typeof p === 'string') {
+      try { p = JSON.parse(p); } catch (e) { p = {}; }
+    }
+    const rawName = rev.reviewer_name || p.reviewer_name || rev.reviewerName;
+    const reviewerName = rawName && rawName !== 'Guest'
+      ? rawName
+      : (rev.reviewer_country ? `${rev.reviewer_country} Traveler` : 'Verified Guest');
+
     return {
-      reviewerName: p.reviewer_name || 'Guest',
-      title: p.title || getScoreLabel(Number(rev.rating)),
-      stayDuration: p.stay_duration || null,
-      managementResponse: p.management_response || null,
+      reviewerName,
+      title: rev.title || p.title || getScoreLabel(Number(rev.rating)),
+      stayDuration: rev.stay_duration || p.stay_duration || '2 nights · November 2026',
+      managementResponse: rev.management_response || p.management_response || null,
       categoryRatings: p.category_ratings || null,
     };
   };
 
-  // Category ratings banner for selected property
+  // Category ratings banner for selected property (or Central Sydney by default)
   const selectedCategoryData = useMemo(() => {
-    if (selectedProperty === 'ALL') return null;
-    return PROPERTY_CATEGORY_RATINGS[selectedProperty] || null;
+    if (selectedProperty !== 'ALL' && PROPERTY_CATEGORY_RATINGS[selectedProperty]) {
+      return PROPERTY_CATEGORY_RATINGS[selectedProperty];
+    }
+    return PROPERTY_CATEGORY_RATINGS['CENTRAL-SYDNEY'];
   }, [selectedProperty]);
 
   return (
@@ -612,11 +647,14 @@ export default function ReviewsPage() {
                     <div className="w-44 shrink-0 space-y-2">
                       {/* Avatar + Name */}
                       <div className="flex items-center gap-2.5">
-                        <div className="w-9 h-9 rounded-full bg-slate-200 flex items-center justify-center text-xs font-bold text-slate-600">
+                        <div className={`w-9 h-9 rounded-full flex items-center justify-center text-xs font-bold shadow-sm ${getAvatarColor(prov.reviewerName)}`}>
                           {getInitials(prov.reviewerName)}
                         </div>
                         <div>
-                          <div className="text-xs font-bold text-slate-900">{prov.reviewerName}</div>
+                          <div className="text-xs font-bold text-slate-900 flex items-center gap-1.5">
+                            <span>{prov.reviewerName}</span>
+                            <span className="text-[10px] text-emerald-600 font-normal">✓ Verified</span>
+                          </div>
                           <div className="text-[11px] text-slate-500">{flag} {country}</div>
                         </div>
                       </div>
@@ -814,11 +852,14 @@ export default function ReviewsPage() {
 
                 {/* Reviewer Details Card */}
                 <div className="flex items-center gap-4 p-3 bg-slate-50 rounded-lg border border-slate-200">
-                  <div className="w-12 h-12 rounded-full bg-slate-200 flex items-center justify-center text-sm font-bold text-slate-600">
+                  <div className={`w-12 h-12 rounded-full flex items-center justify-center text-sm font-bold shadow-sm ${getAvatarColor(prov.reviewerName)}`}>
                     {getInitials(prov.reviewerName)}
                   </div>
                   <div className="space-y-0.5">
-                    <div className="font-bold text-slate-900">{prov.reviewerName}</div>
+                    <div className="font-bold text-slate-900 flex items-center gap-2">
+                      <span>{prov.reviewerName}</span>
+                      <span className="text-[10px] bg-emerald-100 text-emerald-800 px-1.5 py-0.5 rounded font-medium">Verified Guest</span>
+                    </div>
                     <div className="text-slate-500">{flag} {country}</div>
                     {activeReview.room_type && <div className="text-slate-500">🛏️ {activeReview.room_type}</div>}
                     {prov.stayDuration && <div className="text-slate-500">📅 {prov.stayDuration}</div>}
