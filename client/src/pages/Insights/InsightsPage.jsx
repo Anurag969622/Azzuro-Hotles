@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { useFilters } from '../../context/FilterContext';
 import { insightsApi, propertiesApi } from '../../api';
 import {
   Sparkles,
@@ -17,7 +18,23 @@ import {
 export default function InsightsPage() {
   const [insights, setInsights] = useState([]);
   const [properties, setProperties] = useState([]);
-  const [selectedProperty, setSelectedProperty] = useState('ALL');
+
+  // Connect to global filter context (TopNav dropdown)
+  let filterCtx = null;
+  try {
+    filterCtx = useFilters();
+  } catch (e) {
+    filterCtx = null;
+  }
+
+  const [localProperty, setLocalProperty] = useState('ALL');
+  const selectedProperty = filterCtx ? filterCtx.selectedProperty : localProperty;
+  const setSelectedProperty = (val) => {
+    if (filterCtx) filterCtx.setSelectedProperty(val);
+    setLocalProperty(val);
+  };
+  const lastUpdated = filterCtx ? filterCtx.lastUpdated : null;
+
   const [selectedSeverity, setSelectedSeverity] = useState('ALL');
   const [loading, setLoading] = useState(true);
 
@@ -56,7 +73,7 @@ export default function InsightsPage() {
 
   useEffect(() => {
     fetchInsights();
-  }, [selectedProperty]);
+  }, [selectedProperty, lastUpdated]);
 
   const handleOpenEvidence = (insight) => {
     setActiveInsight(insight);

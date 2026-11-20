@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import { useSearchParams } from 'react-router-dom';
+import { useFilters } from '../../context/FilterContext';
 import { reviewsApi, propertiesApi } from '../../api';
 import {
   Search,
@@ -230,8 +231,36 @@ function getDatePresets() {
 
 export default function ReviewsPage() {
   const [searchParams] = useSearchParams();
-  const initialProp = searchParams.get('propertyCode') || 'ALL';
+  const initialProp = searchParams.get('propertyCode');
   const initialId = searchParams.get('id') || '';
+
+  // Synchronize with global top navigation filter (TopNav dropdown)
+  let filterCtx = null;
+  try {
+    filterCtx = useFilters();
+  } catch (e) {
+    filterCtx = null;
+  }
+
+  const [localProperty, setLocalProperty] = useState(initialProp || 'ALL');
+  const selectedProperty = filterCtx ? filterCtx.selectedProperty : localProperty;
+  const setSelectedProperty = (val) => {
+    if (filterCtx) filterCtx.setSelectedProperty(val);
+    setLocalProperty(val);
+  };
+  const lastUpdated = filterCtx ? filterCtx.lastUpdated : null;
+
+  // Sync URL query param on mount if provided
+  useEffect(() => {
+    if (initialProp && initialProp !== 'ALL' && initialProp !== selectedProperty) {
+      setSelectedProperty(initialProp);
+    }
+  }, [initialProp]);
+
+  // Reset page to 1 whenever selectedProperty changes
+  useEffect(() => {
+    setPage(1);
+  }, [selectedProperty]);
 
   const [reviews, setReviews] = useState([]);
   const [properties, setProperties] = useState([]);
@@ -240,7 +269,6 @@ export default function ReviewsPage() {
 
   // Filters state
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedProperty, setSelectedProperty] = useState(initialProp);
   const [selectedSentiment, setSelectedSentiment] = useState('ALL');
   const [selectedRating, setSelectedRating] = useState('ALL');
   const [selectedTopic, setSelectedTopic] = useState('ALL');
@@ -322,7 +350,7 @@ export default function ReviewsPage() {
 
   useEffect(() => {
     fetchReviews();
-  }, [page, selectedProperty, selectedSentiment, selectedRating, selectedTopic, startDate, endDate]);
+  }, [page, selectedProperty, selectedSentiment, selectedRating, selectedTopic, startDate, endDate, lastUpdated]);
 
   const handleSearchSubmit = (e) => {
     e.preventDefault();
@@ -412,12 +440,10 @@ export default function ReviewsPage() {
     };
   };
 
-  // Category ratings banner for selected property (or Central Sydney by default)
+  // Category ratings banner — only shown when a specific property is selected
   const selectedCategoryData = useMemo(() => {
-    if (selectedProperty !== 'ALL' && PROPERTY_CATEGORY_RATINGS[selectedProperty]) {
-      return PROPERTY_CATEGORY_RATINGS[selectedProperty];
-    }
-    return PROPERTY_CATEGORY_RATINGS['CENTRAL-SYDNEY'];
+    if (selectedProperty === 'ALL') return null;
+    return PROPERTY_CATEGORY_RATINGS[selectedProperty] || null;
   }, [selectedProperty]);
 
   return (

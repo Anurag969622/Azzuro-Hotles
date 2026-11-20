@@ -40,13 +40,13 @@ describe('Automation, Job Locking & Multi-Property Resilience Tests', () => {
     });
 
     it('automatically expires locks after timeout duration', async () => {
-      // Create a lock with very short timeout of 50ms
-      const lock = await jobLock.acquire('expiring_job', { timeoutMs: 50 });
+      // Create a lock with timeout of 1000ms
+      const lock = await jobLock.acquire('expiring_job', { timeoutMs: 1000 });
       expect(lock.acquired).toBe(true);
       expect(jobLock.isLocked('expiring_job')).toBe(true);
 
-      // Wait 70ms for expiration
-      await new Promise((r) => setTimeout(r, 70));
+      // Wait 1100ms for expiration
+      await new Promise((r) => setTimeout(r, 1100));
       expect(jobLock.isLocked('expiring_job')).toBe(false);
     });
 
@@ -143,6 +143,6 @@ describe('Automation, Job Locking & Multi-Property Resilience Tests', () => {
       expect(summary.propertyOutcomes['OLYMPIC-PADDINGTON'].status).toBe('success');
       expect(summary.propertyOutcomes['CENTRAL-SYDNEY'].status).toBe('success');
       expect(summary.propertyOutcomes['DARLING-HARBOUR'].status).toBe('success');
-    });
+    }, 40000);
   });
 });

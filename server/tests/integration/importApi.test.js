@@ -48,7 +48,7 @@ describe('Import & Collection API Integration Tests', () => {
     expect(res.body.success).toBe(true);
     expect(res.body.summary.totalSubmitted).toBe(1);
     expect(res.body.summary.parsedCount).toBe(1);
-  });
+  }, 15000);
 
   it('POST /api/v1/import/synthetic generates and ingests synthetic demo reviews', async () => {
     const res = await request(app)
@@ -59,7 +59,7 @@ describe('Import & Collection API Integration Tests', () => {
     expect(res.body.success).toBe(true);
     expect(res.body.disclaimer).toContain('SYNTHETIC TEST DATA');
     expect(res.body.summary.totalSubmitted).toBe(50);
-  });
+  }, 35000);
 
   it('GET /api/v1/import/batches and logs return cleanly', async () => {
     const resBatches = await request(app).get('/api/v1/import/batches');

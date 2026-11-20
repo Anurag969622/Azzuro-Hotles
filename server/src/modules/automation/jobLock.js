@@ -52,18 +52,6 @@ class JobLock {
       };
     }
 
-    const acquiredAt = Date.now();
-    const expiresAt = acquiredAt + timeoutMs;
-    const lockInfo = {
-      jobName,
-      holder,
-      acquiredAt,
-      expiresAt,
-      timeoutMs,
-    };
-
-    this.locks.set(jobName, lockInfo);
-
     // Sync status to database if pool is available
     const pool = poolOverride || dbConn.getPool();
     if (pool) {
@@ -79,6 +67,18 @@ class JobLock {
         logger.debug(`Could not sync lock status for "${jobName}" to DB: ${err.message}`);
       }
     }
+
+    const acquiredAt = Date.now();
+    const expiresAt = acquiredAt + timeoutMs;
+    const lockInfo = {
+      jobName,
+      holder,
+      acquiredAt,
+      expiresAt,
+      timeoutMs,
+    };
+
+    this.locks.set(jobName, lockInfo);
 
     logger.info(`Acquired lock on "${jobName}" by ${holder} (timeout: ${timeoutMs}ms)`);
 
