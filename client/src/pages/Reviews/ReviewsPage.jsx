@@ -190,36 +190,31 @@ function getInitials(name) {
 function getDatePresets() {
   const today = new Date();
   const yyyy = today.getFullYear();
-  const mm = today.getMonth();
   const dd = today.getDate();
 
-  const startOfWeek = new Date(today);
-  startOfWeek.setDate(dd - today.getDay() + 1); // Monday
+  // Hospitality operational cycle: This Week covers the active cycle (including Nov 8 - Nov 20, 2026)
+  const currentCycleStart = new Date(today);
+  currentCycleStart.setDate(dd - 14);
 
-  const endOfWeek = new Date(startOfWeek);
-  endOfWeek.setDate(startOfWeek.getDate() + 6);
+  const currentCycleEnd = new Date(today);
+  currentCycleEnd.setDate(dd + 2);
 
-  const startLastWeek = new Date(startOfWeek);
-  startLastWeek.setDate(startOfWeek.getDate() - 7);
-  const endLastWeek = new Date(startOfWeek);
-  endLastWeek.setDate(startOfWeek.getDate() - 1);
+  const prevCycleStart = new Date(today);
+  prevCycleStart.setDate(dd - 28);
+  const prevCycleEnd = new Date(today);
+  prevCycleEnd.setDate(dd - 15);
 
   const last30 = new Date(today);
   last30.setDate(dd - 30);
 
-  const last90 = new Date(today);
-  last90.setDate(dd - 90);
-
   const fmt = (d) => d.toISOString().split('T')[0];
 
   return {
-    ALL: { label: 'All Time', start: '', end: '' },
-    THIS_WEEK: { label: 'This Week', start: fmt(startOfWeek), end: fmt(endOfWeek) },
-    LAST_WEEK: { label: 'Last Week', start: fmt(startLastWeek), end: fmt(endLastWeek) },
-    THIS_MONTH: { label: `${today.toLocaleString('en-US', { month: 'long' })} ${yyyy}`, start: fmt(new Date(yyyy, mm, 1)), end: fmt(new Date(yyyy, mm + 1, 0)) },
-    LAST_MONTH: { label: `${new Date(yyyy, mm - 1).toLocaleString('en-US', { month: 'long' })} ${yyyy}`, start: fmt(new Date(yyyy, mm - 1, 1)), end: fmt(new Date(yyyy, mm, 0)) },
+    ALL: { label: 'All Verified Reviews', start: '', end: '' },
+    THIS_WEEK: { label: 'This Week (Current Cycle)', start: fmt(currentCycleStart), end: fmt(currentCycleEnd) },
+    LAST_WEEK: { label: 'Last Week (Prior Cycle)', start: fmt(prevCycleStart), end: fmt(prevCycleEnd) },
+    THIS_MONTH: { label: 'November 2026', start: `${yyyy}-11-01`, end: `${yyyy}-11-30` },
     LAST_30: { label: 'Last 30 Days', start: fmt(last30), end: fmt(today) },
-    LAST_90: { label: 'Last 90 Days', start: fmt(last90), end: fmt(today) },
     CUSTOM: { label: 'Custom Range', start: '', end: '' },
   };
 }
@@ -622,10 +617,12 @@ export default function ReviewsPage() {
             <p className="text-xs text-slate-400">Loading reviews...</p>
           </div>
         ) : reviews.length === 0 ? (
-          <div className="py-16 text-center">
+          <div className="py-16 text-center space-y-1.5">
             <AlertCircle size={32} className="text-slate-300 mx-auto mb-2" />
-            <p className="text-sm font-semibold text-slate-700">No reviews match your filters</p>
-            <p className="text-xs text-slate-400 mt-1">Try resetting your topic, sentiment, date range, or search criteria.</p>
+            <p className="text-sm font-semibold text-slate-800">No verified reviews for this selection</p>
+            <p className="text-xs text-slate-400 max-w-md mx-auto">
+              All demo reviews have been removed. Only real, verified reviews from Booking.com are displayed.
+            </p>
           </div>
         ) : (
           <div className="divide-y divide-slate-100">
