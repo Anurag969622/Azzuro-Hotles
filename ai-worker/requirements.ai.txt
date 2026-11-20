@@ -1,0 +1,9 @@
+# AI Worker dependencies (Phase 4 — installed when AI models are ready)
+# These are heavy (1-4 GB download). Do NOT install until Phase 4.
+# pip install -r requirements.ai.txt
+
+torch==2.5.1
+transformers==4.47.1
+sentence-transformers==3.3.1
+spacy==3.8.3
+

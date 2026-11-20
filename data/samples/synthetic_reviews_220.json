@@ -1,0 +1,4402 @@
+[
+  {
+    "source_review_id": "SYNTH-OLYM-0001",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.4,
+    "review_date": "2026-08-16",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0002",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 3.5,
+    "review_date": "2026-01-27",
+    "positive_text": null,
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Disappointed with our stay. The room was smaller than depicted in photos. Would likely not return.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0003",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.7,
+    "review_date": "2026-01-30",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0004",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.9,
+    "review_date": "2026-06-04",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0005",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.5,
+    "review_date": "2026-02-07",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0006",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.1,
+    "review_date": "2026-04-01",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0007",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 3.9,
+    "review_date": "2026-10-28",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0008",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 2.6,
+    "review_date": "2026-05-06",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0009",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 5.7,
+    "review_date": "2026-01-29",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Fantastic central location close to restaurants and transport.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0010",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.2,
+    "review_date": "2026-05-20",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0011",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.9,
+    "review_date": "2025-12-21",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0012",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.8,
+    "review_date": "2026-01-09",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0013",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-06-11",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0014",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.9,
+    "review_date": "2026-07-02",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0015",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.7,
+    "review_date": "2026-07-10",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Fantastic central location close to restaurants and transport.. However: Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0016",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2026-06-27",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0017",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.2,
+    "review_date": "2026-07-02",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0018",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 5.8,
+    "review_date": "2026-05-17",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0019",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9,
+    "review_date": "2026-03-01",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0020",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.7,
+    "review_date": "2026-06-17",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0021",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 5.1,
+    "review_date": "2026-09-12",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Disappointed with our stay. The room was smaller than depicted in photos. Would likely not return.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0022",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 3.2,
+    "review_date": "2026-01-28",
+    "positive_text": null,
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Disappointed with our stay. Air conditioning was a little noisy at night. Would likely not return.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0023",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.4,
+    "review_date": "2025-11-22",
+    "positive_text": null,
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Disappointed with our stay. Street noise was audible late into the evening. Would likely not return.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0024",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.1,
+    "review_date": "2026-09-25",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0025",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-04-25",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0026",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.2,
+    "review_date": "2026-09-26",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0027",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.1,
+    "review_date": "2026-03-28",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Super fast Wi-Fi and quiet room facing the courtyard. The room was smaller than depicted in photos.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0028",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 7.8,
+    "review_date": "2026-06-06",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Great value for money considering the prime Sydney location.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0029",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-07-10",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival. Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0030",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.9,
+    "review_date": "2026-04-10",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0031",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.1,
+    "review_date": "2026-05-29",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0032",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.2,
+    "review_date": "2026-03-23",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0033",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 5.3,
+    "review_date": "2026-06-12",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0034",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.9,
+    "review_date": "2026-07-31",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0035",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.5,
+    "review_date": "2026-10-31",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Spotlessly clean bathroom and very comfortable bed. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0036",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2026-04-06",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0037",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.2,
+    "review_date": "2026-07-05",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0038",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 2.1,
+    "review_date": "2026-06-30",
+    "positive_text": null,
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Disappointed with our stay. The room was smaller than depicted in photos. Would likely not return.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0039",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6.4,
+    "review_date": "2026-11-18",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Fantastic central location close to restaurants and transport.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0040",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.1,
+    "review_date": "2026-03-16",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard. Street noise was audible late into the evening.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0041",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 3,
+    "review_date": "2026-02-13",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0042",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.5,
+    "review_date": "2026-04-21",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0043",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.6,
+    "review_date": "2026-03-03",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Great value for money considering the prime Sydney location.. However: Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0044",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 4.8,
+    "review_date": "2026-02-19",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0045",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 6.4,
+    "review_date": "2026-09-09",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Great value for money considering the prime Sydney location.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0046",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.2,
+    "review_date": "2026-02-19",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0047",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6,
+    "review_date": "2026-02-24",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0048",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.7,
+    "review_date": "2026-01-01",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0049",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.4,
+    "review_date": "2026-07-09",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0050",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 5.6,
+    "review_date": "2026-04-08",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0051",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 4.5,
+    "review_date": "2026-07-26",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0052",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.3,
+    "review_date": "2026-01-18",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Fantastic central location close to restaurants and transport.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0053",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.9,
+    "review_date": "2025-12-24",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0054",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.1,
+    "review_date": "2026-04-28",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0055",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.4,
+    "review_date": "2025-12-24",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Great value for money considering the prime Sydney location.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0056",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 5,
+    "review_date": "2026-09-08",
+    "positive_text": null,
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Disappointed with our stay. No elevator to the second floor, had to carry heavy luggage. Would likely not return.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0057",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 10,
+    "review_date": "2025-12-10",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0058",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.3,
+    "review_date": "2026-08-19",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0059",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.8,
+    "review_date": "2026-09-11",
+    "positive_text": null,
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Disappointed with our stay. No elevator to the second floor, had to carry heavy luggage. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0060",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 10,
+    "review_date": "2026-10-13",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0061",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-03-16",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed. Air conditioning was a little noisy at night.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0062",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.4,
+    "review_date": "2025-12-02",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport. The room was smaller than depicted in photos.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0063",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.7,
+    "review_date": "2026-07-01",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0064",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.9,
+    "review_date": "2026-06-20",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Fantastic central location close to restaurants and transport.. However: Air conditioning was a little noisy at night.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0065",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-04-07",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0066",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.3,
+    "review_date": "2026-10-13",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0067",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.2,
+    "review_date": "2025-12-02",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0068",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.3,
+    "review_date": "2026-06-15",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport. Street noise was audible late into the evening.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0069",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.2,
+    "review_date": "2026-09-19",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0070",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.2,
+    "review_date": "2026-01-01",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0071",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.8,
+    "review_date": "2026-10-02",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure. Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0072",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.4,
+    "review_date": "2026-09-13",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0073",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 7.2,
+    "review_date": "2026-05-18",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Great value for money considering the prime Sydney location.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0074",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 5.6,
+    "review_date": "2026-04-18",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: Air conditioning was a little noisy at night.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0075",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 5,
+    "review_date": "2026-02-11",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Disappointed with our stay. No elevator to the second floor, had to carry heavy luggage. Would likely not return.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0076",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.6,
+    "review_date": "2026-11-04",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: The bed was like sleeping on a cloud. Excellent shower pressure.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0077",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 6.8,
+    "review_date": "2026-01-17",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Fantastic central location close to restaurants and transport.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0078",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.5,
+    "review_date": "2026-06-15",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. The bed was like sleeping on a cloud. Excellent shower pressure. Air conditioning was a little noisy at night.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0079",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.4,
+    "review_date": "2026-02-22",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0080",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2026-04-08",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0081",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.9,
+    "review_date": "2025-12-05",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0082",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.9,
+    "review_date": "2026-03-15",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0083",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.5,
+    "review_date": "2025-11-30",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0084",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.8,
+    "review_date": "2026-04-13",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Château de Venus. Check-in was seamless and reception accommodated our early arrival. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0085",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8,
+    "review_date": "2026-07-27",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0086",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 6.8,
+    "review_date": "2026-11-18",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0087",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.9,
+    "review_date": "2025-12-17",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0088",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.9,
+    "review_date": "2026-03-22",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0089",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-06-10",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Great value for money considering the prime Sydney location. Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0090",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 3.2,
+    "review_date": "2026-06-25",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0091",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 5.6,
+    "review_date": "2026-09-26",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0092",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.4,
+    "review_date": "2026-04-28",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0093",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.4,
+    "review_date": "2026-07-22",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0094",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 3.1,
+    "review_date": "2026-09-02",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0095",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6.5,
+    "review_date": "2026-07-29",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0096",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 2.4,
+    "review_date": "2026-03-25",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0097",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-03-09",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0098",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.3,
+    "review_date": "2025-12-15",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Great value for money considering the prime Sydney location. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0099",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.9,
+    "review_date": "2026-03-31",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0100",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2025-12-18",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0101",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-11-02",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The staff were extraordinarily polite and helpful throughout our stay. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0102",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.6,
+    "review_date": "2026-06-16",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Fantastic central location close to restaurants and transport.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0103",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.9,
+    "review_date": "2026-10-29",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0104",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.7,
+    "review_date": "2026-09-01",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0105",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.4,
+    "review_date": "2025-11-26",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0106",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.9,
+    "review_date": "2026-09-29",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0107",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.2,
+    "review_date": "2026-09-16",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0108",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2026-08-22",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed. Air conditioning was a little noisy at night.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0109",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-06-26",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0110",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.3,
+    "review_date": "2026-07-12",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0111",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.5,
+    "review_date": "2026-11-01",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0112",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.4,
+    "review_date": "2026-08-31",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0113",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 3.6,
+    "review_date": "2026-02-21",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0114",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.7,
+    "review_date": "2026-04-11",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0115",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.7,
+    "review_date": "2026-05-21",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0116",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.7,
+    "review_date": "2026-08-28",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Great value for money considering the prime Sydney location.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0117",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.9,
+    "review_date": "2026-03-16",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0118",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 6.1,
+    "review_date": "2026-06-22",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Air conditioning was a little noisy at night.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0119",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.6,
+    "review_date": "2026-03-07",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0120",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.8,
+    "review_date": "2026-03-17",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0121",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 3.6,
+    "review_date": "2025-11-30",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0122",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.7,
+    "review_date": "2026-07-12",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0123",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.7,
+    "review_date": "2026-08-24",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0124",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.1,
+    "review_date": "2026-06-11",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0125",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.5,
+    "review_date": "2026-10-07",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0126",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 6.9,
+    "review_date": "2026-08-15",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0127",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.9,
+    "review_date": "2026-07-03",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure. The room was smaller than depicted in photos.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0128",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 6.1,
+    "review_date": "2026-06-12",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Fantastic central location close to restaurants and transport.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0129",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-10-04",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0130",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.2,
+    "review_date": "2026-06-20",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0131",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6.1,
+    "review_date": "2026-10-17",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Great value for money considering the prime Sydney location.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0132",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.3,
+    "review_date": "2026-09-02",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0133",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 3.4,
+    "review_date": "2026-09-06",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Disappointed with our stay. The room was smaller than depicted in photos. Would likely not return.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0134",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.7,
+    "review_date": "2026-11-20",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0135",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.4,
+    "review_date": "2026-03-24",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0136",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 4.9,
+    "review_date": "2026-10-03",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0137",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.5,
+    "review_date": "2026-06-08",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0138",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.8,
+    "review_date": "2025-11-21",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. The staff were extraordinarily polite and helpful throughout our stay. Street noise was audible late into the evening.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0139",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6.5,
+    "review_date": "2026-07-26",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Air conditioning was a little noisy at night.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0140",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 4.5,
+    "review_date": "2026-11-09",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0141",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.8,
+    "review_date": "2026-01-08",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0142",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.4,
+    "review_date": "2026-04-12",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0143",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.5,
+    "review_date": "2026-04-14",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Super fast Wi-Fi and quiet room facing the courtyard. Air conditioning was a little noisy at night.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0144",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.4,
+    "review_date": "2026-05-02",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0145",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-08-12",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0146",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.7,
+    "review_date": "2025-11-27",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: Great value for money considering the prime Sydney location.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0147",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9,
+    "review_date": "2026-02-14",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0148",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 3.4,
+    "review_date": "2026-05-08",
+    "positive_text": null,
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Disappointed with our stay. Street noise was audible late into the evening. Would likely not return.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0149",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.1,
+    "review_date": "2026-07-17",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0150",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.7,
+    "review_date": "2026-01-28",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard. The room was smaller than depicted in photos.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0151",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.5,
+    "review_date": "2026-10-18",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0152",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.6,
+    "review_date": "2026-02-07",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0153",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.7,
+    "review_date": "2026-04-28",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival. The room was smaller than depicted in photos.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0154",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.5,
+    "review_date": "2025-12-02",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0155",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 6.9,
+    "review_date": "2025-12-29",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0156",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.2,
+    "review_date": "2026-03-03",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed. Street noise was audible late into the evening.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0157",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 3.1,
+    "review_date": "2026-09-22",
+    "positive_text": null,
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Disappointed with our stay. Air conditioning was a little noisy at night. Would likely not return.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0158",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.1,
+    "review_date": "2026-05-04",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0159",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.7,
+    "review_date": "2026-08-21",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0160",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.4,
+    "review_date": "2025-12-04",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0161",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.2,
+    "review_date": "2026-06-03",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0162",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 10,
+    "review_date": "2026-09-23",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0163",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 7.8,
+    "review_date": "2026-05-31",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Fantastic central location close to restaurants and transport.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0164",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 7.4,
+    "review_date": "2026-07-23",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0165",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.4,
+    "review_date": "2026-06-18",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Super fast Wi-Fi and quiet room facing the courtyard. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0166",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9,
+    "review_date": "2026-01-31",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Great value for money considering the prime Sydney location. Air conditioning was a little noisy at night.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0167",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 3.8,
+    "review_date": "2026-07-20",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Disappointed with our stay. Air conditioning was a little noisy at night. Would likely not return.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0168",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.4,
+    "review_date": "2025-12-09",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0169",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 10,
+    "review_date": "2026-09-01",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0170",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 4.9,
+    "review_date": "2026-01-16",
+    "positive_text": null,
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Disappointed with our stay. No elevator to the second floor, had to carry heavy luggage. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0171",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 3.1,
+    "review_date": "2026-04-15",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0172",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.6,
+    "review_date": "2026-09-09",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0173",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.8,
+    "review_date": "2025-12-04",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0174",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.9,
+    "review_date": "2026-04-22",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0175",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.5,
+    "review_date": "2026-04-29",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Great value for money considering the prime Sydney location.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0176",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9,
+    "review_date": "2026-09-19",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0177",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 2.8,
+    "review_date": "2026-07-14",
+    "positive_text": null,
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Disappointed with our stay. The room was smaller than depicted in photos. Would likely not return.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0178",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.9,
+    "review_date": "2026-01-28",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. The staff were extraordinarily polite and helpful throughout our stay.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0179",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 5.7,
+    "review_date": "2026-09-08",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Mixed experience at Venus Central Sydney. On the positive side: Spotlessly clean bathroom and very comfortable bed.. However: Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0180",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 5.6,
+    "review_date": "2026-02-15",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Fantastic central location close to restaurants and transport.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0181",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 4.6,
+    "review_date": "2026-10-07",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Disappointed with our stay. Street noise was audible late into the evening. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0182",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.6,
+    "review_date": "2026-10-08",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0183",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2,
+    "review_date": "2026-07-02",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Disappointed with our stay. No elevator to the second floor, had to carry heavy luggage. Would likely not return.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0184",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.1,
+    "review_date": "2026-08-04",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Had a wonderful stay at Château de Venus. The staff were extraordinarily polite and helpful throughout our stay. Air conditioning was a little noisy at night.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0185",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 5.7,
+    "review_date": "2026-03-24",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: The room was smaller than depicted in photos.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0186",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.8,
+    "review_date": "2025-12-10",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0187",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.4,
+    "review_date": "2026-03-13",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0188",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 7.6,
+    "review_date": "2026-06-20",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0189",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.6,
+    "review_date": "2026-02-19",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0190",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 8.5,
+    "review_date": "2026-08-02",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0191",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 5,
+    "review_date": "2025-12-03",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0192",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 7.3,
+    "review_date": "2026-07-13",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Château de Venus. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0193",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.3,
+    "review_date": "2026-10-23",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Spotlessly clean bathroom and very comfortable bed. The room was smaller than depicted in photos.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0194",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 4.9,
+    "review_date": "2026-07-21",
+    "positive_text": null,
+    "negative_text": "Air conditioning was a little noisy at night.",
+    "full_text": "Disappointed with our stay. Air conditioning was a little noisy at night. Would likely not return.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0195",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.8,
+    "review_date": "2026-08-23",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0196",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.3,
+    "review_date": "2026-01-24",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0197",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8,
+    "review_date": "2026-11-13",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0198",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.7,
+    "review_date": "2026-07-18",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0199",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.2,
+    "review_date": "2026-02-13",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Spotlessly clean bathroom and very comfortable bed. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0200",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 2.9,
+    "review_date": "2025-12-24",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0201",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.8,
+    "review_date": "2026-03-09",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Fantastic central location close to restaurants and transport.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0202",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 9.1,
+    "review_date": "2026-09-22",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Had a wonderful stay at Venus Potts Point. Spotlessly clean bathroom and very comfortable bed. Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0203",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.6,
+    "review_date": "2026-02-16",
+    "positive_text": "The bed was like sleeping on a cloud. Excellent shower pressure.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The bed was like sleeping on a cloud. Excellent shower pressure. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0204",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8.5,
+    "review_date": "2026-06-25",
+    "positive_text": "Fantastic central location close to restaurants and transport.",
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Had a wonderful stay at Château de Venus. Fantastic central location close to restaurants and transport. Check-out was crowded and had a slight delay.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0205",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 9.7,
+    "review_date": "2026-10-21",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0206",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 6,
+    "review_date": "2026-08-21",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Japan",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0207",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.5,
+    "review_date": "2026-06-02",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. The staff were extraordinarily polite and helpful throughout our stay. Street noise was audible late into the evening.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Group of friends",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0208",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9,
+    "review_date": "2026-05-14",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Had a wonderful stay at Château de Venus. Great value for money considering the prime Sydney location. Street noise was audible late into the evening.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0209",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 8.6,
+    "review_date": "2026-02-09",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Olympic Hotel Paddington. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "United Kingdom",
+    "language": "en",
+    "room_type": "Executive Suite",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0210",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 7.6,
+    "review_date": "2026-01-24",
+    "positive_text": "The staff were extraordinarily polite and helpful throughout our stay.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Mixed experience at Venus Potts Point. On the positive side: The staff were extraordinarily polite and helpful throughout our stay.. However: No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0211",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 9.4,
+    "review_date": "2026-03-07",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Super fast Wi-Fi and quiet room facing the courtyard. Wi-Fi was intermittently dropping out during peak hours.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0212",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 5.1,
+    "review_date": "2026-05-16",
+    "positive_text": null,
+    "negative_text": "Check-out was crowded and had a slight delay.",
+    "full_text": "Disappointed with our stay. Check-out was crowded and had a slight delay. Would likely not return.",
+    "reviewer_country": "France",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0213",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 4.7,
+    "review_date": "2026-06-21",
+    "positive_text": null,
+    "negative_text": "Wi-Fi was intermittently dropping out during peak hours.",
+    "full_text": "Disappointed with our stay. Wi-Fi was intermittently dropping out during peak hours. Would likely not return.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Family with children",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0214",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 10,
+    "review_date": "2026-03-03",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Venus Potts Point. Check-in was seamless and reception accommodated our early arrival.",
+    "reviewer_country": "Singapore",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0215",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 8.2,
+    "review_date": "2026-02-13",
+    "positive_text": "Great value for money considering the prime Sydney location.",
+    "negative_text": "No elevator to the second floor, had to carry heavy luggage.",
+    "full_text": "Had a wonderful stay at Venus Central Sydney. Great value for money considering the prime Sydney location. No elevator to the second floor, had to carry heavy luggage.",
+    "reviewer_country": "Germany",
+    "language": "en",
+    "room_type": "Compact Single Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0216",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 9.3,
+    "review_date": "2026-03-25",
+    "positive_text": "Super fast Wi-Fi and quiet room facing the courtyard.",
+    "negative_text": null,
+    "full_text": "Had a wonderful stay at Château de Venus. Super fast Wi-Fi and quiet room facing the courtyard.",
+    "reviewer_country": "United States",
+    "language": "en",
+    "room_type": "Deluxe King Studio",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-OLYM-0217",
+    "property": "Olympic Hotel Paddington",
+    "property_code": "OLYMPIC-PADDINGTON",
+    "rating": 7.7,
+    "review_date": "2026-07-04",
+    "positive_text": "Check-in was seamless and reception accommodated our early arrival.",
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Mixed experience at Olympic Hotel Paddington. On the positive side: Check-in was seamless and reception accommodated our early arrival.. However: Street noise was audible late into the evening.",
+    "reviewer_country": "Australia",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-POTT-0218",
+    "property": "Venus Potts Point",
+    "property_code": "POTTS-POINT",
+    "rating": 4.1,
+    "review_date": "2026-04-01",
+    "positive_text": null,
+    "negative_text": "Street noise was audible late into the evening.",
+    "full_text": "Disappointed with our stay. Street noise was audible late into the evening. Would likely not return.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Solo traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-CENT-0219",
+    "property": "Venus Central Sydney",
+    "property_code": "CENTRAL-SYDNEY",
+    "rating": 2.7,
+    "review_date": "2026-02-21",
+    "positive_text": null,
+    "negative_text": "Bathroom tiles showed slight wear and could use modern refurbishment.",
+    "full_text": "Disappointed with our stay. Bathroom tiles showed slight wear and could use modern refurbishment. Would likely not return.",
+    "reviewer_country": "New Zealand",
+    "language": "en",
+    "room_type": "Superior Double Room",
+    "travel_type": "Couple",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  },
+  {
+    "source_review_id": "SYNTH-DARL-0220",
+    "property": "Château de Venus",
+    "property_code": "DARLING-HARBOUR",
+    "rating": 8,
+    "review_date": "2026-03-27",
+    "positive_text": "Spotlessly clean bathroom and very comfortable bed.",
+    "negative_text": "The room was smaller than depicted in photos.",
+    "full_text": "Had a wonderful stay at Château de Venus. Spotlessly clean bathroom and very comfortable bed. The room was smaller than depicted in photos.",
+    "reviewer_country": "Canada",
+    "language": "en",
+    "room_type": "Standard Queen Room",
+    "travel_type": "Business traveller",
+    "synthetic": true,
+    "provenance": {
+      "synthetic": true,
+      "disclaimer": "SYNTHETIC TEST DATA - Not collected from Booking.com",
+      "generator_version": "1.0.0"
+    }
+  }
+]
