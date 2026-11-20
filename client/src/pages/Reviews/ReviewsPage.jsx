@@ -68,6 +68,15 @@ const COUNTRY_FLAGS = {
   'Indonesia': '🇮🇩',
   'Mexico': '🇲🇽',
   'South Africa': '🇿🇦',
+  'BR': '🇧🇷',
+  'IN': '🇮🇳',
+  'PH': '🇵🇭',
+  'ID': '🇮🇩',
+  'US': '🇺🇸',
+  'AU': '🇦🇺',
+  'GB': '🇬🇧',
+  'CA': '🇨🇦',
+  'NZ': '🇳🇿',
 };
 
 // Booking.com category ratings per property (from verified Booking.com pages)
