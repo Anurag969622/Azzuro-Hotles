@@ -368,6 +368,7 @@ async function rpcExecSQL(supabase, sql, params = []) {
 
 function makeClient() {
   return {
+    isSupabaseAdapter: true,
     query: async (text, values) => {
       return await execSQL(text, values || []);
     },
@@ -379,6 +380,7 @@ function makeClient() {
 
 function createSupabasePool() {
   const pool = {
+    isSupabaseAdapter: true,
     query: async (text, values) => {
       return await execSQL(text, values || []);
     },

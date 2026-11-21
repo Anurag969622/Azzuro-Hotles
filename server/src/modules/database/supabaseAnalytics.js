@@ -275,6 +275,38 @@ const supabaseAnalytics = {
 
     return { reviews: pageData, total };
   },
+
+  /**
+   * Property details by id or code
+   */
+  async propertyById(id) {
+    const s = getAdminClient();
+    let q = s.from('properties')
+      .select('id, property_code, name, booking_url, location, country, timezone, is_active, created_at, updated_at');
+    if (id.includes('-') && id.length > 20) {
+      q = q.eq('id', id);
+    } else {
+      q = q.eq('property_code', id);
+    }
+    const { data: props } = await q.limit(1);
+    if (!props || props.length === 0) return null;
+    const property = props[0];
+
+    const { data: reviews } = await s.from('reviews')
+      .select('id, rating, review_date, full_text, positive_text, negative_text, language, reviewer_country, provenance')
+      .eq('property_id', property.id)
+      .order('review_date', { ascending: false });
+
+    const total = reviews?.length || 0;
+    const avg = total > 0 ? Math.round((reviews.reduce((acc, r) => acc + r.rating, 0) / total) * 100) / 100 : 0;
+
+    return {
+      ...property,
+      total_reviews: total,
+      avg_rating: avg,
+      recentReviews: (reviews || []).slice(0, 10),
+    };
+  },
 };
 
 module.exports = supabaseAnalytics;

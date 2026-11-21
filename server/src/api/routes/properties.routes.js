@@ -49,6 +49,14 @@ router.get('/:id', async (req, res, next) => {
       throw new AppError('Database connection pool not available', 503);
     }
 
+    if (pool.isSupabaseAdapter) {
+      const property = await supabaseAnalytics.propertyById(id);
+      if (!property) {
+        throw new AppError(`Property not found: "${id}"`, 404, 'PROPERTY_NOT_FOUND');
+      }
+      return res.json({ success: true, property });
+    }
+
     // Lookup by UUID or property_code
     const propRes = await pool.query(`
       SELECT 

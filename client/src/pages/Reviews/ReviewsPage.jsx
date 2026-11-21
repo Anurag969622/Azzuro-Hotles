@@ -229,6 +229,13 @@ function getDatePresets() {
   };
 }
 
+const DEFAULT_PROPERTIES = [
+  { id: '1b913ba2-f8f3-4b7c-8e48-59d98924f13a', property_code: 'CENTRAL-SYDNEY', name: 'Azzurro Pod Hotel Central Sydney - Near Central Station' },
+  { id: 'c2c8bd56-5788-48c3-8d5a-5da89637827e', property_code: 'POTTS-POINT', name: 'Azzurro Pod Hotel Potts Point' },
+  { id: 'a39fe8e0-6583-4864-8037-f8e353959cd6', property_code: 'OLYMPIC-PADDINGTON', name: 'Olympic Hotel Paddington' },
+  { id: '162c0f6e-9568-4bd8-8713-dccab8b6c146', property_code: 'DARLING-HARBOUR', name: 'Chateau de Venus Darling Harbour' },
+];
+
 export default function ReviewsPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const initialProp = searchParams.get('propertyCode');
@@ -272,7 +279,7 @@ export default function ReviewsPage() {
   }, [selectedProperty]);
 
   const [reviews, setReviews] = useState([]);
-  const [properties, setProperties] = useState([]);
+  const [properties, setProperties] = useState(DEFAULT_PROPERTIES);
   const [loading, setLoading] = useState(true);
   const [totalCount, setTotalCount] = useState(0);
 
@@ -304,7 +311,7 @@ export default function ReviewsPage() {
   useEffect(() => {
     propertiesApi.getAll()
       .then((res) => {
-        if (res.success && res.properties) {
+        if (res.success && res.properties && res.properties.length > 0) {
           setProperties(res.properties);
         }
       })
