@@ -230,7 +230,7 @@ function getDatePresets() {
 }
 
 export default function ReviewsPage() {
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const initialProp = searchParams.get('propertyCode');
   const initialId = searchParams.get('id') || '';
 
@@ -247,13 +247,22 @@ export default function ReviewsPage() {
   const setSelectedProperty = (val) => {
     if (filterCtx) filterCtx.setSelectedProperty(val);
     setLocalProperty(val);
+    // Keep URL parameter in sync with dropdown selection
+    const newParams = new URLSearchParams(searchParams);
+    if (val && val !== 'ALL') {
+      newParams.set('propertyCode', val);
+    } else {
+      newParams.delete('propertyCode');
+    }
+    setSearchParams(newParams, { replace: true });
   };
   const lastUpdated = filterCtx ? filterCtx.lastUpdated : null;
 
   // Sync URL query param on mount if provided
   useEffect(() => {
     if (initialProp && initialProp !== 'ALL' && initialProp !== selectedProperty) {
-      setSelectedProperty(initialProp);
+      if (filterCtx) filterCtx.setSelectedProperty(initialProp);
+      setLocalProperty(initialProp);
     }
   }, [initialProp]);
 

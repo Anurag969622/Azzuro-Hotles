@@ -6,7 +6,6 @@ const { parseCsv } = require('../../modules/collection/csvParser');
 const { parseJson } = require('../../modules/collection/jsonParser');
 const ingestionService = require('../../modules/collection/ingestionService');
 const { importLimiter } = require('../middleware/rateLimiter');
-const { generateSyntheticReviews } = require('../../modules/collection/syntheticDataGenerator');
 const { CollectionAdapterManager } = require('../../modules/collection/collectionAdapter');
 const { getPool } = require('../../modules/database/connection');
 
@@ -145,7 +144,14 @@ router.post('/json', importLimiter, upload.single('file'), async (req, res, next
  * Generates synthetic demonstration reviews and imports them.
  */
 router.post('/synthetic', importLimiter, async (req, res, next) => {
+  if (process.env.NODE_ENV !== 'test') {
+    return res.status(410).json({
+      success: false,
+      error: { message: 'Synthetic data generation is disabled. Production relies strictly on verified real Booking.com reviews.' },
+    });
+  }
   try {
+    const { generateSyntheticReviews } = require('../../modules/collection/syntheticDataGenerator');
     const count = parseInt(req.body.count || 200, 10);
     const reviews = generateSyntheticReviews(count);
 

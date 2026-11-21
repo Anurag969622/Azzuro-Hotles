@@ -7,7 +7,6 @@ const scheduler = require('../../modules/automation/scheduler');
 const workflowEngine = require('../../modules/automation/workflowEngine');
 const jobLock = require('../../modules/automation/jobLock');
 const ingestionService = require('../../modules/collection/ingestionService');
-const { generateSyntheticReviews } = require('../../modules/collection/syntheticDataGenerator');
 const { parseJson } = require('../../modules/collection/jsonParser');
 
 const router = Router();
@@ -225,20 +224,9 @@ router.post('/run', async (req, res, next) => {
     }
 
     if (adapter === 'synthetic') {
-      const reviews = generateSyntheticReviews(count);
-      const { validRecords, failedRows } = parseJson(reviews, { defaultPropertyCode: propertyCode });
-      const summary = await ingestionService.ingestRecords({
-        records: validRecords,
-        failedRows,
-        source: 'json_import',
-        fileName: `on_demand_synthetic_${count}.json`,
-        propertyCode,
-      });
-
-      return res.json({
-        success: true,
-        message: `Successfully collected and ingested ${summary.insertedCount} records via synthetic adapter.`,
-        summary,
+      return res.status(410).json({
+        success: false,
+        error: { message: 'Synthetic data adapter is permanently disabled in production. Use booking_crawler adapter for real data.' },
       });
     }
 

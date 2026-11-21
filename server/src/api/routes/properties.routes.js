@@ -3,37 +3,35 @@
 const { Router } = require('express');
 const dbConn = require('../../modules/database/connection');
 const { AppError } = require('../middleware/errorHandler');
+const supabaseAnalytics = require('../../modules/database/supabaseAnalytics');
 
 const router = Router();
 
 /**
  * GET /api/properties
  * Lists all hotel properties with review counts and average rating.
+ * Uses supabaseAnalytics to avoid complex SQL that fails over PostgREST.
  */
 router.get('/', async (req, res, next) => {
   try {
     const pool = dbConn.getPool();
-    if (!pool) {
-      return res.json({ success: true, properties: [] });
+    if (pool && !pool.isSupabaseAdapter) {
+      const { rows } = await pool.query(`
+        SELECT 
+          p.id, p.property_code, p.name, p.booking_url, p.location, p.country, p.timezone, p.is_active, p.created_at, p.updated_at,
+          COUNT(r.id)::int as total_reviews,
+          COALESCE(ROUND(AVG(r.rating)::numeric, 2), 0)::float as avg_rating
+        FROM properties p
+        LEFT JOIN reviews r ON p.id = r.property_id
+        WHERE p.is_active = true
+        GROUP BY p.id, p.property_code, p.name, p.booking_url, p.location, p.country, p.timezone, p.is_active, p.created_at, p.updated_at
+        ORDER BY p.property_code ASC;
+      `);
+      return res.json({ success: true, count: rows.length, properties: rows });
     }
 
-    const { rows } = await pool.query(`
-      SELECT 
-        p.id, p.property_code, p.name, p.booking_url, p.location, p.country, p.timezone, p.is_active, p.created_at, p.updated_at,
-        COUNT(r.id)::int as total_reviews,
-        COALESCE(ROUND(AVG(r.rating)::numeric, 2), 0)::float as avg_rating
-      FROM properties p
-      LEFT JOIN reviews r ON p.id = r.property_id
-      WHERE p.is_active = true
-      GROUP BY p.id, p.property_code, p.name, p.booking_url, p.location, p.country, p.timezone, p.is_active, p.created_at, p.updated_at
-      ORDER BY p.property_code ASC;
-    `);
-
-    res.json({
-      success: true,
-      count: rows.length,
-      properties: rows,
-    });
+    const properties = await supabaseAnalytics.propertiesWithStats();
+    res.json({ success: true, count: properties.length, properties });
   } catch (err) {
     next(err);
   }

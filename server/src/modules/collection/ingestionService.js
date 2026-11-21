@@ -229,7 +229,7 @@ class IngestionService {
           property_id, collection_batch_id, source, status,
           started_at, completed_at, fetched_count, inserted_count,
           duplicate_count, rejected_count, error_details
-        ) VALUES ($1, $2, $3, $4, $5, timezone('utc', now()), $6, $7, $8, $9, $10)
+        ) VALUES ($1, $2, $3, $4, $5, NOW(), $6, $7, $8, $9, $10)
       `, [
         defaultPropId,
         batchId,

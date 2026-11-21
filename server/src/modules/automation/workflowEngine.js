@@ -8,7 +8,7 @@ const jobLock = require('./jobLock');
 const { CollectionAdapterManager } = require('../collection/collectionAdapter');
 const ingestionService = require('../collection/ingestionService');
 const analysisService = require('../analytics/analysisService');
-const { generateSyntheticReviews } = require('../collection/syntheticDataGenerator');
+// Synthetic data generator removed from production code paths
 const { parseJson } = require('../collection/jsonParser');
 
 const adapterManager = new CollectionAdapterManager();
@@ -196,15 +196,19 @@ class WorkflowEngine {
         }
       } else {
         const sampleDropPath = path.resolve(__dirname, `../../../../data/samples/sample_incoming_${propertyCode}.json`);
+        const realFeedbackPath = path.resolve(__dirname, '../../../../data/samples/azzurro_properties_real_feedback.json');
         if (fs.existsSync(sampleDropPath)) {
           const fileContent = fs.readFileSync(sampleDropPath, 'utf8');
           rawReviews = JSON.parse(fileContent);
+        } else if (fs.existsSync(realFeedbackPath)) {
+          const allReal = JSON.parse(fs.readFileSync(realFeedbackPath, 'utf8'));
+          rawReviews = allReal.filter((r) => r.property === propertyCode || r.property_code === propertyCode);
+        } else if (process.env.NODE_ENV === 'test') {
+          const { generateSyntheticReviews } = require('../collection/syntheticDataGenerator');
+          rawReviews = generateSyntheticReviews(sampleCount);
         } else {
-          // Safe demonstration fallback
-          rawReviews = generateSyntheticReviews(sampleCount).filter((r) => r.property === propertyCode || !r.property);
-          if (rawReviews.length === 0) {
-            rawReviews = generateSyntheticReviews(sampleCount);
-          }
+          logger.warn(`[WorkflowEngine] No sample file for "${propertyCode}" and no live crawl source. Returning 0 records.`);
+          rawReviews = [];
         }
       }
 

@@ -1,74 +1,49 @@
 'use strict';
 
-const { Pool } = require('pg');
-const { DATABASE_URL, IS_PROD } = require('../../config/env');
+/**
+ * connection.js
+ *
+ * Database abstraction layer.
+ *
+ * Uses the Supabase PostgREST adapter (supabaseAdapter.js) when
+ * SUPABASE_URL + SUPABASE_SERVICE_ROLE_KEY are set (which they are in .env).
+ *
+ * Falls back to the pg-mem in-memory pool ONLY in test environments where
+ * a pool is explicitly injected via setPool().
+ *
+ * ⚠  The old pg.Pool → IPv6 host → memoryFallback chain has been removed.
+ *    All production data now flows through Supabase PostgREST.
+ */
+
+const { SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY } = require('../../config/env');
 const logger = require('../../config/logger');
 
 let pool = null;
 
 /**
- * Returns the singleton pg.Pool instance for direct database querying.
+ * Returns the singleton pool / adapter instance.
  */
 function getPool() {
+  if (pool) return pool;
+
   if (global.__azzurro_db_pool__) {
-    return global.__azzurro_db_pool__;
-  }
-  if (!pool) {
-    if (!DATABASE_URL || DATABASE_URL.includes('your-project-ref') || DATABASE_URL.includes('[YOUR-PASSWORD]')) {
-      const { createMemoryPool } = require('./memoryFallback');
-      pool = createMemoryPool();
-      global.__azzurro_db_pool__ = pool;
-      return pool;
-    }
-
-    const rawPool = new Pool({
-      connectionString: DATABASE_URL,
-      max: 8, // Stay comfortably within Supabase free-tier connection bounds
-      idleTimeoutMillis: 30000,
-      connectionTimeoutMillis: 20000,
-      ssl: IS_PROD || DATABASE_URL.includes('supabase.co') ? { rejectUnauthorized: false } : false,
-    });
-
-    rawPool.on('error', (err) => {
-      logger.error('Unexpected error on idle pg client', { error: err.message });
-    });
-
-    // Proxy pool so that any network-level DNS / IPv6 host failure automatically falls back
-    pool = {
-      query: async (text, values) => {
-        try {
-          return await rawPool.query(text, values);
-        } catch (err) {
-          if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
-            logger.warn(`[Database] Supabase direct connection unreachable (${err.code}). Using verified local memory database.`);
-            const { createMemoryPool } = require('./memoryFallback');
-            const mem = createMemoryPool();
-            global.__azzurro_db_pool__ = mem;
-            return await mem.query(text, values);
-          }
-          throw err;
-        }
-      },
-      connect: async () => {
-        try {
-          return await rawPool.connect();
-        } catch (err) {
-          if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
-            logger.warn(`[Database] Supabase direct connection unreachable (${err.code}). Using verified local memory database.`);
-            const { createMemoryPool } = require('./memoryFallback');
-            const mem = createMemoryPool();
-            global.__azzurro_db_pool__ = mem;
-            return await mem.connect();
-          }
-          throw err;
-        }
-      },
-      on: (event, handler) => rawPool.on(event, handler),
-      end: () => rawPool.end(),
-    };
+    pool = global.__azzurro_db_pool__;
+    return pool;
   }
 
-  return pool;
+  if (SUPABASE_URL && SUPABASE_SERVICE_ROLE_KEY) {
+    logger.info('[Database] Connecting via Supabase PostgREST adapter (HTTP/HTTPS).');
+    const { createSupabasePool } = require('./supabaseAdapter');
+    pool = createSupabasePool();
+    global.__azzurro_db_pool__ = pool;
+    return pool;
+  }
+
+  // Should never reach here in production — env vars are required
+  throw new Error(
+    '[Database] SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY must be set in .env. ' +
+    'No database connection is available.'
+  );
 }
 
 /**
@@ -80,22 +55,11 @@ function setPool(customPool) {
 }
 
 /**
- * Executes a query using the connection pool.
+ * Executes a query using the connection pool / adapter.
  */
 async function query(text, params) {
-  let p = getPool();
-  try {
-    return await p.query(text, params);
-  } catch (err) {
-    if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
-      logger.warn(`[Database] Network issue with remote database (${err.code}). Using local memory pool.`);
-      const { createMemoryPool } = require('./memoryFallback');
-      p = createMemoryPool();
-      global.__azzurro_db_pool__ = p;
-      return await p.query(text, params);
-    }
-    throw err;
-  }
+  const p = getPool();
+  return await p.query(text, params);
 }
 
 /**
@@ -103,31 +67,21 @@ async function query(text, params) {
  * @param {Function} callback - async function(client) => Promise<any>
  */
 async function transaction(callback) {
-  let p = getPool();
-  let client;
+  const p = getPool();
+  const client = await p.connect();
   try {
-    client = await p.connect();
-  } catch (err) {
-    if (['ENOTFOUND', 'EHOSTUNREACH', 'ETIMEDOUT', 'ECONNREFUSED'].includes(err.code)) {
-      logger.warn(`[Database] Network issue connecting to remote database (${err.code}). Using local memory pool.`);
-      const { createMemoryPool } = require('./memoryFallback');
-      p = createMemoryPool();
-      global.__azzurro_db_pool__ = p;
-      client = await p.connect();
-    } else {
-      throw err;
-    }
-  }
-  try {
-    await client.query('BEGIN');
+    // BEGIN/COMMIT are no-ops in the Supabase adapter but kept for pg compatibility
+    if (client.query) await client.query('BEGIN');
     const result = await callback(client);
-    await client.query('COMMIT');
+    if (client.query) await client.query('COMMIT');
     return result;
   } catch (err) {
-    await client.query('ROLLBACK');
+    if (client.query) {
+      try { await client.query('ROLLBACK'); } catch (_) {}
+    }
     throw err;
   } finally {
-    client.release();
+    if (client.release) client.release();
   }
 }
 
@@ -135,9 +89,8 @@ async function transaction(callback) {
  * Closes the connection pool gracefully.
  */
 async function closePool() {
-  const p = getPool();
-  if (p) {
-    await p.end();
+  if (pool && pool.end) {
+    await pool.end();
   }
   pool = null;
   global.__azzurro_db_pool__ = null;
@@ -150,4 +103,3 @@ module.exports = {
   transaction,
   closePool,
 };
-
